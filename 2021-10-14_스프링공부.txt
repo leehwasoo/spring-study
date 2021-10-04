@@ -1,0 +1,18 @@
+ioc : 내가 사용할 의존성을 누군가 알아서 주겠지
+
+controller가 의존성을 주입받아 진행
+
+inversion of controller
+
+ioc controller의 종류
+1. Application Context
+2. BeanFactory
+-> 빈을 만들고 엮어주고 제공한다.
+
+bean : 스프링 ioc 컨테이너가 관리하는 객체
+어떻게 등록?
+1. Component Scanning
+   - @Component
+     - @Repository
+     - @Service
+     - @Controller
