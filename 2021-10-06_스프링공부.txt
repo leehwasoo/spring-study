@@ -1,0 +1,6 @@
+spring에서의 bean은
+applicationcontext가 관리하는 객체
+같은 객체 new로 생성시 bean이 아니다.
+bean만 의존성주입이된다.
+
+@component과 직접 등록을 통해 bean 등록가능

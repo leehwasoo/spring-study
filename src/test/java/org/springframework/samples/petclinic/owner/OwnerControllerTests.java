@@ -77,7 +77,7 @@ class OwnerControllerTests {
 			System.out.println(name);
 		}
 
-		OwnerController bean = applicationContext.getBean(OwnerController.class);
+		OwnerController bean = applicationContext.getBean(OwnerController.class); // applicationcontext가 주는것은 bean, new로 그냥 생성하면 bean이 아니다
 		assertThat(bean).isNotNull();
 	}
 
