@@ -3,4 +3,13 @@ applicationcontext가 관리하는 객체
 같은 객체 new로 생성시 bean이 아니다.
 bean만 의존성주입이된다.
 
-@component과 직접 등록을 통해 bean 등록가능
+@Component과 직접 등록을 통해 bean 등록가능
+
+생성자 injection사용시 deadlock 발생가능
+
+생성자, 필드, Setter에 @Autowired, @Inject를 붙일 수 있다.
+
+========================================
+
+Aspect Oriented Programming = AOP
+흩어진 코드를 한곳으로 모아보자
